@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 180" role="img" aria-labelledby="title desc">
+  <title id="title">Logo de Noesor</title>
+  <desc id="desc">Una N geométrica construida con líneas azules y moradas conectadas por nodos.</desc>
+  <defs>
+    <linearGradient id="g" x1="20" y1="150" x2="200" y2="20" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#168cff"/>
+      <stop offset=".5" stop-color="#4e72ff"/>
+      <stop offset="1" stop-color="#a64dff"/>
+    </linearGradient>
+    <radialGradient id="node" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#e8fbff"/>
+      <stop offset=".35" stop-color="#36cfff"/>
+      <stop offset="1" stop-color="#514cff"/>
+    </radialGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <path d="M38 154V28l74 76 54-62v112L92 78v69" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="112" cy="104" r="14" fill="url(#node)" filter="url(#glow)"/>
+  <circle cx="38" cy="154" r="7" fill="#168cff"/>
+  <circle cx="38" cy="28" r="7" fill="#29b8ff"/>
+  <circle cx="92" cy="147" r="7" fill="#237eff"/>
+  <circle cx="166" cy="42" r="7" fill="#a64dff"/>
+</svg>
