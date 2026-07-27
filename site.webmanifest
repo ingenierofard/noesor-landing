@@ -1,0 +1,12 @@
+{
+  "name": "Noesor",
+  "short_name": "Noesor",
+  "description": "Comprender antes de construir.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#03050d",
+  "theme_color": "#050713",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
